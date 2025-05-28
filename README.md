@@ -1,37 +1,33 @@
-# Qr-code
+# Carte de visite en ligne
 
-# Description du dépôt
+## Description du projet
 
-    Le lien du site
-    Le lien figma (regroupant le wireframe mobile, web, design system ainsi que le prototypage)
+L'objectif de ce projet est de concevoir une carte de visite numérique accessible via QR code. Ce profil en ligne type "Linktree" permet d'accéder aux coordonnées professionnelles (téléphone, email, réseaux sociaux) tout en offrant une expérience interactive.
 
-# Lien vers le projet hébergé
+## Utilisation
 
-    Lien vers le dépôt GitHub
+1. Scannez le QR code présent sur la carte de visite physique
+2. Accédez instantanément au profil numérique
+3. Contactez directement via les boutons d'action
+4. Consultez les réseaux sociaux et informations professionnelles
 
-# FIGMA
+### Lien vers le projet hébergé
+[Visiter le site](https://alexandrelpr.github.io/Qr-code/)
 
-    Lien vers le wireframe
-    Lien vers le prototypage
+### Lien vers le dépôt GitHub
+[Accéder au code source](https://github.com/AlexandreLpr/Qr-code)
 
-# Profils
+### FIGMA (Design)
+[Wireframe](https://www.figma.com/design/aGVyM73QnXwmenJS8ktYUr/Untitled?node-id=0-1&t=Ey76G2hQQUxkJ5DH-1)
 
-    Liens: https://alexandrelpr.github.io/Qr-code/?id=Alexandre_Lopere
-# Utilisation
+### Profils disponibles
+[Alexandre Lopere](https://alexandrelpr.github.io/Qr-code/?id=Alexandre_Lopere)  
 
-Scannez le QR code présent sur la carte de visite physique
-Accédez instantanément au profil numérique
-Contactez directement via les boutons d'action
-Consultez les réseaux sociaux et informations professionnelles
+##  Outils utilisés
+- **Développement**  
+  ![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)
+  ![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=flat&logo=visual%20studio%20code&logoColor=white)
 
-# Description
-
-L'objectif du projet est de concevoir une carte de visite en ligne qui puisse être accèssible après un scan du qr code de la carte de visite réelle. Ce profil en ligne permet d'accéder aux contacts de la personne en question (numéro de téléphone adresse mail,réseaux sociaux en plus d'être une simple carte de visite. 
-
-Logiciels utilisés
-
-    GitHub : Pour le dépôt
-    Visual Studio Code : Pour le codage
-    Figma : Pour la création des maquettes, de la charte graphique et du prototypage.
-    Indesign : Création de la carte de visite réelle 
-
+- **Design**  
+  ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
+  ![InDesign](https://img.shields.io/badge/Adobe_InDesign-FF3366?style=flat&logo=adobeindesign&logoColor=white)
