@@ -11,7 +11,7 @@ L'objectif de ce projet est de concevoir une carte de visite numérique accessib
 3. Contactez directement via les boutons d'action
 4. Consultez les réseaux sociaux et informations professionnelles
 
-### Lien vers le projet hébergé
+### Lien vers le projet hébergé (profil de base)
 [Visiter le site](https://alexandrelpr.github.io/Qr-code/)
 
 ### Lien vers le dépôt GitHub
