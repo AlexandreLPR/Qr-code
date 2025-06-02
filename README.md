@@ -14,14 +14,14 @@ L'objectif de ce projet est de concevoir une carte de visite numérique accessib
 ### Lien vers le projet hébergé (profil de base)
 [Visiter le site](https://alexandrelpr.github.io/Qr-code/)
 
+### Profils disponibles
+[Alexandre Lopere](https://alexandrelpr.github.io/Qr-code/?id=Alexandre_Lopere)  
+
 ### Lien vers le dépôt GitHub
 [Accéder au code source](https://github.com/AlexandreLpr/Qr-code)
 
 ### FIGMA (Design)
 [Wireframe](https://www.figma.com/design/aGVyM73QnXwmenJS8ktYUr/Untitled?node-id=0-1&t=Ey76G2hQQUxkJ5DH-1)
-
-### Profils disponibles
-[Alexandre Lopere](https://alexandrelpr.github.io/Qr-code/?id=Alexandre_Lopere)  
 
 ##  Outils utilisés
 - **Développement**  
