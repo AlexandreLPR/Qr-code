@@ -1,22 +1,35 @@
-        body {
-            font-family: 'Inter', Arial, sans-serif;
-            background: #f8fafc;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-        }
-        .card-container {
-            background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
-            border-radius: 20px;
-            box-shadow: 0 4px 16px rgba(60,60,120,0.10);
-            max-width: 380px;
-            width: 100%;
-            overflow: hidden;
-            position: relative;
-        }
-        .header {
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, sans-serif;
+}
+.card-container {
+    width: 100vw;
+    max-width: 480px;
+    min-height: 100vh;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header {
             background: transparent;
             padding: 32px 20px 8px 20px;
             text-align: center;
@@ -62,28 +75,27 @@
             margin-top: 4px;
         }
         .content {
-            padding: 8px 18px 14px 18px;
-        }
+        padding: 10px 15% 8px 15%; /* 18% de chaque côté ≈ 25% plus centré qu'avant */
+    }
         .action-button {
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 12px;
             width: 100%;
-            padding: 12px 0;
-            margin: 8px 0;
-            border: none;
-            border-radius: 8px;
-            font-size: 1rem;
-            font-weight: 600;
-            text-decoration: none;
-            text-align: center;
-            justify-content: center;
-            cursor: pointer;
-            background: #fff;
-            color: #330f50;
-            border: 1.5px solid #222;
-            transition: background 0.2s;
-        }
+    max-width: 400px;
+    margin: 8px 0;
+    padding: 12px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    background: #fff;
+    color: #330f50;
+}
         .action-button svg {
             width: 20px;
             height: 20px;
@@ -94,24 +106,26 @@
         .social-links {
             display: flex;
             flex-direction: row;
-            gap: 12px;
+            gap: 18px;
+            justify-content: center;
             margin: 16px 0 0 0;
-            justify-content: flex-end;
             align-items: center;
         }
         .social-link {
-            width: 38px;
-            height: 38px;
+            width: 45px;
+            height: 45px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #330f50;
-            text-decoration: none;
-            font-size: 1.1rem;
-            background: #fff !important;
-            border: 1.5px solid #222;
-            transition: background 0.2s;
+            background: transparent !important;
+            border: 0px solid #fff;
+            padding: 0;
+        }
+        .social-link svg {
+            width: 38px;
+            height: 38px;
+            display: block;
         }
         .social-link:hover {
             background: #fae7f4 !important;
@@ -120,13 +134,25 @@
             display: none !important;
         }
         @media (max-width: 480px) {
-            .card-container {
-                margin: 10px;
-            }
-            .header {
-                padding: 22px 8px 12px 8px;
-            }
-            .content {
-                padding: 10px 6px 8px 6px;
-            }
-        }
+    .card-container {
+        width: 100vw;
+        min-height: 100vh;
+        border-radius: 0;
+        margin: 0;
+    }
+    .header {
+        padding: 22px 8px 12px 8px;
+    }
+    .content {
+        padding: 10px 6% 8px 6%; /* Un peu moins sur mobile mais toujours centré */
+    }
+    .action-button {
+        width: 100%;
+        max-width: 400px;
+        margin: 12px 0;
+    }
+    .social-links {
+        gap: 16px;
+        justify-content: end;
+    }
+}
