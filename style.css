@@ -5,9 +5,9 @@ html, body {
     padding: 0;
 }
 body {
-    min-height: 100vh;
+    min-height: 100dvh;
     min-width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     width: 100vw;
     background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
     display: flex;
@@ -27,7 +27,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 100vh;   
+    height: 100%;
+    min-height: unset;
 }
 .header {
             background: transparent;
@@ -75,7 +76,7 @@ body {
             margin-top: 4px;
         }
         .content {
-        padding: 10px 15% 8px 15%; /* 18% de chaque côté ≈ 25% plus centré qu'avant */
+        padding: 10px 15% 8px 15%; 
     }
         .action-button {
             display: flex;
@@ -136,7 +137,7 @@ body {
         @media (max-width: 480px) {
     .card-container {
         width: 100vw;
-        min-height: 100vh;
+        min-height: 100dvh;
         border-radius: 0;
         margin: 0;
     }
@@ -144,7 +145,7 @@ body {
         padding: 22px 8px 12px 8px;
     }
     .content {
-        padding: 10px 6% 8px 6%; /* Un peu moins sur mobile mais toujours centré */
+        padding: 10px 6% 8px 6%; 
     }
     .action-button {
         width: 100%;
